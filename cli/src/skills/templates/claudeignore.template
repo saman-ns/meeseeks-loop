@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+dist/
+.dart_tool/
+node_modules/
+__pycache__/
+target/
+
+# Generated files
+{{#generatedPatterns}}
+{{.}}
+{{/generatedPatterns}}
+
+# Documentation (agent reads CLAUDE.md instead)
+docs/
+{{#docFiles}}
+{{.}}
+{{/docFiles}}
+!README.md
+!CLAUDE.md
+!CHANGELOG.md
+
+# Lock files
+{{#lockFiles}}
+{{.}}
+{{/lockFiles}}
+
+# Environment
+.env
+.env.*
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store

@@ -1,0 +1,62 @@
+{
+	"name": "meeseeks-loop",
+	"version": "5.1.0",
+	"description": "Meeseeks — Token-Optimized Autonomous AI Coding Loop with interactive mode and quota tracking",
+	"type": "module",
+	"bin": {
+		"meeseeks": "src/bin.mjs"
+	},
+	"scripts": {
+		"start": "tsx src/index.ts",
+		"check": "biome check --write .",
+		"test": "vitest run",
+		"test:watch": "vitest"
+	},
+	"keywords": [
+		"ai",
+		"coding",
+		"automation",
+		"claude",
+		"opencode",
+		"cursor",
+		"codex",
+		"qwen",
+		"droid",
+		"copilot",
+		"cli"
+	],
+	"author": "Sami",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saman-ns/tool-meeseeks"
+	},
+	"dependencies": {
+		"@octokit/rest": "^21.0.0",
+		"commander": "^13.0.0",
+		"nanospinner": "^1.2.0",
+		"node-notifier": "^10.0.1",
+		"picocolors": "^1.1.0",
+		"simple-git": "^3.27.0",
+		"tsx": "^4.7.0",
+		"yaml": "^2.7.0",
+		"zod": "^3.24.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.0",
+		"@types/node": "^20.0.0",
+		"@types/node-notifier": "^8.0.5",
+		"vitest": "^4.1.9"
+	},
+	"files": [
+		"src/",
+		"!src/**/*.test.ts",
+		"!src/__tests__/",
+		"!src/**/*.example.ts",
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=18"
+	}
+}

@@ -1,0 +1,41 @@
+# CLAUDE.md — {{projectName}}
+
+## Project Overview
+
+{{description}}
+
+**Stack:** {{language}}{{#framework}}, {{framework}}{{/framework}}
+
+## Commands
+
+```bash
+{{#testCmd}}
+{{testCmd}}    # Run tests
+{{/testCmd}}
+{{#lintCmd}}
+{{lintCmd}}    # Lint
+{{/lintCmd}}
+{{#buildCmd}}
+{{buildCmd}}    # Build
+{{/buildCmd}}
+```
+
+{{#hasTests}}
+## Test Directory
+
+Tests are in `{{testDir}}/`.
+{{/hasTests}}
+
+## Key Files
+
+{{#keyFiles}}
+- `{{.}}`
+{{/keyFiles}}
+
+## Rules
+
+- Follow existing code patterns and conventions
+- Keep changes focused and minimal
+{{#generatedPatterns}}
+- Do NOT modify generated files ({{generatedPatterns}})
+{{/generatedPatterns}}

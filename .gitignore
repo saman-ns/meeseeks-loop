@@ -1,0 +1,27 @@
+# CLI Dependencies
+cli/node_modules/
+
+# Package managers
+/package-lock.json
+bun.lockb
+
+# Meeseeks local config (used for testing)
+.meeseeks/
+.meeseeks-worktrees/
+
+# Editor
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+cli/coverage/

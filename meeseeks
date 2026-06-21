@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Meeseeks wrapper script - run from anywhere
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Run Meeseeks with tsx for TypeScript support
+exec npx tsx "$SCRIPT_DIR/cli/src/index.ts" "$@"
