@@ -1,6 +1,16 @@
 # Meeseeks
 
-Autonomous AI coding loop. Runs AI agents on tasks until done.
+**Stop babysitting your coding agent.** Meeseeks runs any of **7 agent CLIs** — Claude Code,
+OpenCode, Cursor, Codex, Qwen, Droid, or Copilot — on a task or PRD until it's done.
+Sequentially, or **in parallel across isolated git worktrees** with AI-assisted merge-conflict
+resolution. With **token & quota tracking** so it never quietly burns your budget.
+
+It's the [ralph loop](https://ghuntley.com/ralph/) — agent in a loop until the work is
+finished — but engine-agnostic, parallel, and cost-aware.
+
+> ⚠️ **Personal project, use at your own risk.** Meeseeks runs agents fully autonomously with
+> permission prompts disabled — they read, modify, and delete files and run shell commands
+> without asking. Run it only on code you can afford to lose. No warranty (MIT, AS IS).
 
 ## Install
 
