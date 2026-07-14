@@ -23,8 +23,26 @@ Sequentially, or **in parallel across isolated git worktrees** with AI-assisted 
 resolution. With **token & quota tracking** so it never quietly burns your budget.
 
 It's the [ralph loop](https://ghuntley.com/ralph/) — agent in a loop until the work is
-finished — but engine-agnostic, parallel, and cost-aware. MIT, and a personal project
-shared as-is.
+finished — but engine-agnostic, parallel, and cost-aware. MIT, a personal project
+shared as-is, and a fork of [ralphy](https://github.com/michaelshimeles/ralphy) (see [Origins](#origins)).
+
+## Origins
+
+Meeseeks is a fork of [ralphy](https://github.com/michaelshimeles/ralphy) by
+Michael Shimeles (MIT). I forked at ralphy v4.7.0, which already had the
+multi-engine support, parallel worktree execution, sandbox mode, browser
+automation, and webhooks you see below — that groundwork is his and his
+contributors'. What Meeseeks adds on top:
+
+- per-task token tracking with local cost estimation, plus API quota monitoring (`--quota-interval`)
+- interactive mode (`--interactive`) — approve each task before it runs
+- `--optimize-tokens` — generates `CLAUDE.md`, `.claudeignore`, and config to cut token waste
+- cross-task context guide and YAML file hints, so agents start warm instead of re-exploring
+- AI-powered `--init` interview, planning mode, and pre-run summary
+- parallel-execution hardening (file locking, symlink validation, rate-limit retry)
+- Node.js-only distribution, published to npm as `meeseeks-loop`
+
+Changelog entries below up to v4.x are ralphy releases.
 
 ## Install
 
