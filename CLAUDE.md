@@ -4,12 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What Is Meeseeks
 
-Autonomous AI coding loop CLI (v5.0.0). Takes a task or PRD file, runs AI agents (Claude Code, OpenCode, Cursor, Codex, Qwen, Droid, Copilot) on each task sequentially or in parallel until done. Written in TypeScript, runs on Node.js 18+.
+Autonomous AI coding loop CLI. Takes a task or PRD file, runs AI agents (Claude Code, OpenCode, Cursor, Codex, Qwen, Droid, Copilot) on each task sequentially or in parallel until done. Written in TypeScript, runs on Node.js 18+.
 
 ## Repository Structure
 
 - `cli/` — Main TypeScript CLI source code
-- `landing/` — Next.js marketing site
 - `docs/` — Architecture, API, testing documentation
 
 ## Commands
