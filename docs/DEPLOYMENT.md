@@ -112,7 +112,7 @@ Meeseeks follows [semver](https://semver.org/). Update the version in:
 | Channel | URL |
 |---------|-----|
 | Discord | https://discord.gg/SZZV74mCuV |
-| GitHub Issues | https://github.com/saman-ns/tool-meeseeks/issues |
+| GitHub Issues | https://github.com/saman-ns/meeseeks-loop/issues |
 | npm | https://www.npmjs.com/package/meeseeks-loop |
 
 ## Future Improvements

@@ -10,15 +10,15 @@ Do this BEFORE flipping visibility to public, so the launch links are final.
 
 1. Rename the repo:
    ```bash
-   gh repo rename meeseeks-loop --repo saman-ns/tool-meeseeks
+   gh repo rename meeseeks-loop --repo saman-ns/meeseeks-loop
    ```
 2. Update the local remote (optional — the redirect works, but be explicit):
    ```bash
    git remote set-url origin https://github.com/saman-ns/meeseeks-loop.git
    ```
-3. Replace `saman-ns/tool-meeseeks` with `saman-ns/meeseeks-loop` in every
+3. Replace `saman-ns/meeseeks-loop` with `saman-ns/meeseeks-loop` in every
    reference found in the repo (verify with
-   `grep -rn 'saman-ns/tool-meeseeks' . --exclude-dir=node_modules --exclude-dir=.git`):
+   `grep -rn 'saman-ns/meeseeks-loop' . --exclude-dir=node_modules --exclude-dir=.git`):
    - `README.md` — CI badge URL (line ~4)
    - `SECURITY.md` — private vulnerability reporting link
    - `CONTRIBUTING.md` — git clone URL

@@ -8,7 +8,7 @@
 > done. I added token/cost tracking, quota monitoring, and an approve-each-task
 > interactive mode. MIT.
 >
-> github.com/saman-ns/tool-meeseeks
+> github.com/saman-ns/meeseeks-loop
 
 (If tagging: replace the ralphy GitHub link with @-handle + link once Michael's
 X handle is confirmed — do not guess it.)
@@ -29,7 +29,7 @@ X handle is confirmed — do not guess it.)
 >
 > It's a personal tool, shared as-is. If you run coding agents unattended and
 > want to know what they're costing you, it might be useful:
-> https://github.com/saman-ns/tool-meeseeks
+> https://github.com/saman-ns/meeseeks-loop
 >
 > Credit where it's due: the multi-engine and parallel-execution foundation is
 > ralphy's — https://github.com/michaelshimeles/ralphy
@@ -63,4 +63,4 @@ X handle is confirmed — do not guess it.)
 > MIT. Feedback welcome, especially on the token-tracking accuracy across
 > engines.
 >
-> https://github.com/saman-ns/tool-meeseeks
+> https://github.com/saman-ns/meeseeks-loop

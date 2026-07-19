@@ -29,7 +29,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/saman-ns/tool-meeseeks"
+		"url": "https://github.com/saman-ns/meeseeks-loop"
 	},
 	"dependencies": {
 		"@octokit/rest": "^21.0.0",

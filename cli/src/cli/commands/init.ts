@@ -623,7 +623,7 @@ async function runInteractiveInit(workDir: string): Promise<void> {
 	const configPath = getConfigPath(workDir);
 	const configYaml = YAML.stringify(config);
 	const configContent = `# Meeseeks Configuration
-# https://github.com/saman-ns/tool-meeseeks
+# https://github.com/saman-ns/meeseeks-loop
 
 ${configYaml}`;
 	writeFileSync(configPath, configContent, "utf-8");

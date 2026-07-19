@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in Meeseeks, please report it **privately**:
 
-- Use GitHub's [private vulnerability reporting](https://github.com/saman-ns/tool-meeseeks/security/advisories/new), or
+- Use GitHub's [private vulnerability reporting](https://github.com/saman-ns/meeseeks-loop/security/advisories/new), or
 - Reach out on [Discord](https://discord.gg/SZZV74mCuV).
 
 Please do not open a public issue for security reports. We aim to acknowledge reports within a few days.

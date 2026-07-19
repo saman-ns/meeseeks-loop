@@ -254,7 +254,7 @@ The context guide is cumulative and grows across the session. It is automaticall
 
 ## Links
 
-- [GitHub](https://github.com/saman-ns/tool-meeseeks)
+- [GitHub](https://github.com/saman-ns/meeseeks-loop)
 - [Discord](https://discord.gg/SZZV74mCuV)
 
 ## License

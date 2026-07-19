@@ -1,7 +1,7 @@
 # Meeseeks
 
 [![npm version](https://img.shields.io/npm/v/meeseeks-loop.svg)](https://www.npmjs.com/package/meeseeks-loop)
-[![CI](https://github.com/saman-ns/tool-meeseeks/actions/workflows/ci.yml/badge.svg)](https://github.com/saman-ns/tool-meeseeks/actions/workflows/ci.yml)
+[![CI](https://github.com/saman-ns/meeseeks-loop/actions/workflows/ci.yml/badge.svg)](https://github.com/saman-ns/meeseeks-loop/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > ⚠️ **Personal project — use at your own risk.** I built Meeseeks for my own use and am

@@ -10,7 +10,7 @@ import type { MeeseeksConfig } from "./types.ts";
  */
 function createConfigContent(detected: ReturnType<typeof detectProject>): string {
 	return `# Meeseeks Configuration
-# https://github.com/saman-ns/tool-meeseeks
+# https://github.com/saman-ns/meeseeks-loop
 
 # Project info (auto-detected, edit if needed)
 project:

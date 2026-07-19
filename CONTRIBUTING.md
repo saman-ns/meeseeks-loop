@@ -8,7 +8,7 @@
 ## Dev Setup
 
 ```bash
-git clone https://github.com/saman-ns/tool-meeseeks.git
+git clone https://github.com/saman-ns/meeseeks-loop.git
 cd tool-meeseeks/cli
 npm install
 ```
