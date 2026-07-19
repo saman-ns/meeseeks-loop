@@ -13,8 +13,6 @@
 > accept the MIT license's "AS IS", no-warranty terms in full. See the **Security** section
 > below before running anything.
 
-**[Join our Discord](https://discord.gg/SZZV74mCuV)** - Questions? Want to contribute? Join the community!
-
 ![Meeseeks](assets/meeseeks.jpeg)
 
 **Stop babysitting your coding agent.** Meeseeks runs any of **7 agent CLIs** — Claude Code,
@@ -40,17 +38,20 @@ contributors'. What Meeseeks adds on top:
 - cross-task context guide and YAML file hints, so agents start warm instead of re-exploring
 - AI-powered `--init` interview, planning mode, and pre-run summary
 - parallel-execution hardening (file locking, symlink validation, rate-limit retry)
-- Node.js-only distribution, published to npm as `meeseeks-loop`
+- Node.js-only distribution (npm publish planned)
 
 Changelog entries below up to v4.x are ralphy releases.
 
 ## Install
 
 ```bash
-npm install -g meeseeks-loop
+git clone https://github.com/saman-ns/meeseeks-loop.git
+cd meeseeks-loop/cli
+npm install
+npm link   # makes the `meeseeks` command available globally
 ```
 
-This installs the `meeseeks` command globally. To run from source instead, see [CONTRIBUTING.md](CONTRIBUTING.md).
+(`npm install -g meeseeks-loop` coming once the package is published to npm.) To run from source instead, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## ⚠️ Security: how Meeseeks runs agents
 
@@ -535,7 +536,7 @@ meeseeks --parallel --sandbox
 
 ## Community
 
-- [Discord](https://discord.gg/SZZV74mCuV)
+- [GitHub Issues](https://github.com/saman-ns/meeseeks-loop/issues)
 
 ## License
 
