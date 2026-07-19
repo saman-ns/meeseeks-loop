@@ -13,7 +13,7 @@
 > accept the MIT license's "AS IS", no-warranty terms in full. See the **Security** section
 > below before running anything.
 
-![Meeseeks](assets/meeseeks.jpeg)
+![Meeseeks CLI](assets/cli-menu.png)
 
 **Stop babysitting your coding agent.** Meeseeks runs any of **7 agent CLIs** — Claude Code,
 OpenCode, Cursor, Codex, Qwen, Droid, or Copilot — on a task or PRD until it's done.
