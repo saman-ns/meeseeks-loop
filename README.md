@@ -38,20 +38,17 @@ contributors'. What Meeseeks adds on top:
 - cross-task context guide and YAML file hints, so agents start warm instead of re-exploring
 - AI-powered `--init` interview, planning mode, and pre-run summary
 - parallel-execution hardening (file locking, symlink validation, rate-limit retry)
-- Node.js-only distribution (npm publish planned)
+- Node.js-only distribution, published to npm as `meeseeks-loop`
 
 Changelog entries below up to v4.x are ralphy releases.
 
 ## Install
 
 ```bash
-git clone https://github.com/saman-ns/meeseeks-loop.git
-cd meeseeks-loop/cli
-npm install
-npm link   # makes the `meeseeks` command available globally
+npm install -g meeseeks-loop
 ```
 
-(`npm install -g meeseeks-loop` coming once the package is published to npm.) To run from source instead, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This installs the `meeseeks` command globally. To run from source instead, see CONTRIBUTING.md. To run from source instead, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## ⚠️ Security: how Meeseeks runs agents
 
